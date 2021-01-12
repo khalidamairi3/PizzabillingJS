@@ -35,8 +35,9 @@
           price: 16.0,
         },
       }
+ 
+ calculatePizzas();
 //this functions is used to split lines and print the total
-calculatePizzas();
 function calculatePizzas(){
     orderText = orderText.trim();
     items = orderText.split("\n");
